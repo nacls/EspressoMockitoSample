@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginBottom="50dp"
+    >
+
+    <EditText
+        android:id="@+id/inputField"
+        android:padding="12dp"
+        android:hint="input text here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/changeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       Set Input to Espresso!      " android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/switchActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Input to Second Activity" android:onClick="onClick"/>
+</LinearLayout>
